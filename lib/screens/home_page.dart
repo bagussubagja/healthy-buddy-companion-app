@@ -74,8 +74,7 @@ class _HomePageState extends State<HomePage> {
                             name: _nameController.text);
                       },
                     ));
-                    _idController.clear();
-                    _nameController.clear();
+
                   },
                   child: const Text('Mulai Panggilan'),
                 )
